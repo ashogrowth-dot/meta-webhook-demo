@@ -2,10 +2,13 @@
   "name": "meta-webhook-demo",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
+  "engines": { "node": ">=18" },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "googleapis": "^133.0.0"
   }
 }
